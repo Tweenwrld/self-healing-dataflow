@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+
+# Airflow
+airflow.db
+airflow.db-shm
+airflow.db-wal
+airflow-webserver.pid
+airflow-scheduler.pid
+logs/*
+*.log
+*.pid
+*.err
+unittests.cfg
+webserver_config.py
+
+# Airflow configuration & auto-generated secrets
+airflow.cfg
+*.generated
+simple_auth_manager_passwords.json*
+standalone_admin_password.txt
+
+output/*.json
+
+input/*
+# !input/.gitkeep
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
