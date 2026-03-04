@@ -1,6 +1,6 @@
 # Self-Healing Dataflow
 
-A production-ready Apache Airflow pipeline for sentiment analysis on large-scale review datasets with built-in data quality diagnosis and automatic healing.
+An Apache Airflow pipeline for sentiment analysis on a review dataset with automatic healing.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Airflow](https://img.shields.io/badge/Airflow-3.0+-017CEE.svg)](https://airflow.apache.org/)
@@ -8,7 +8,7 @@ A production-ready Apache Airflow pipeline for sentiment analysis on large-scale
 
 ## What It Does
 
-This pipeline processes Yelp review data and performs sentiment classification while automatically detecting and fixing common data quality issues:
+This pipeline processes review data and performs sentiment classification while automatically detecting and fixing common data quality issues:
 
 - **Self-healing ingestion**: Detects malformed, missing, or invalid text fields and applies normalization rules
 - **Local LLM inference**: Uses OLLAMA (llama3.2) for privacy-preserving, cost-free sentiment analysis
